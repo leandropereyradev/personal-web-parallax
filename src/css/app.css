@@ -1,0 +1,38 @@
+.Parallax__background {
+  background-image: url('../assets/base/fondo2.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 99.5vw;
+  height: 1670px;
+  z-index: -1;
+}
+
+@media screen and (min-width: 700px) {
+  .Parallax__background {
+    height: 2300px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .Parallax__background {
+    height: 1900px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .Parallax__background {
+    height: 1700px;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  .Parallax__background {
+    height: 1800px;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .Parallax__background {
+    height: 2100px;
+  }
+}
