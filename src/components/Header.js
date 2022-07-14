@@ -14,7 +14,8 @@ const Header = () => {
           <div className="header_lines-container_firstLine"></div>
           <div className="header_lines-container_secondLine"></div>
         </div>
-        <h3 className="header_subtitle">desarrollador web</h3>
+        <h3 className="header_subtitle">Desarrollador Web</h3>
+        <h3 className="header_level">v1.0 - Trainee</h3>
       </div>
       <div className="header_image-container">
         <img src={img.logo} alt="logo" />
