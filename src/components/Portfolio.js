@@ -2,8 +2,7 @@ import React from "react";
 import Slider from "react-perfect-slider";
 import "../css/portfolio.css";
 import { bdPortfolio } from "./bdPortfolio";
-import left from "../assets/base/left.svg";
-import right from "../assets/base/right.svg";
+import img from "./img";
 
 const Carrousel = () => {
   return (
@@ -11,8 +10,8 @@ const Carrousel = () => {
       <Slider
         renderControls={(next, previous) => [
           <div className="buttons">
-            <img src={left} alt="left" onClick={previous} className="previous" />
-            <img src={right} alt="right" onClick={next} className="next" />
+            <img src={img.left} alt="left" onClick={previous} className="previous" />
+            <img src={img.right} alt="right" onClick={next} className="next" />
           </div>,
         ]}
         className="box"

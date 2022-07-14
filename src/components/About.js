@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../css/about.css";
-import photo from "../assets/base/personal.svg";
+import img from './img'
 import AboutPop from "./AboutPop";
 
 const About = () => {
@@ -19,7 +19,7 @@ const About = () => {
         </button>
       </div>
       <div className="about_image-container">
-        <img src={photo} alt="logo" />
+        <img src={img.photo} alt="logo" />
       </div>
       <AboutPop estado={modal} set={() => setModal(!modal)} />
     </div>

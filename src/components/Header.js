@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/header.css";
-import logo from "../assets/base/logo.svg";
+import img from "./img";
 
 const Header = () => {
   return (
@@ -17,7 +17,7 @@ const Header = () => {
         <h3 className="header_subtitle">desarrollador web</h3>
       </div>
       <div className="header_image-container">
-        <img src={logo} alt="logo" />
+        <img src={img.logo} alt="logo" />
       </div>
     </div>
   );

@@ -1,9 +1,4 @@
-import celia from "../assets/web/celiamartinperez-min.webp";
-import alicia from "../assets/web/elmenudealicia-min.webp";
-import yoga from "../assets/web/yogaypilatesoviedo-min.webp";
-import lista from "../assets/web/listatareas-min.webp";
-import weather from "../assets/web/weather-min.webp";
-import leandro from "../assets/web/leandropereyra-min.webp";
+import img from "./img";
 
 export const bdPortfolio = [
   {
@@ -12,7 +7,7 @@ export const bdPortfolio = [
     subtitle: "Coaching y Mentoría",
     tech: "WordPress",
     web: "https://celiamartinperez.com/",
-    image: celia,
+    image: img.celia,
   },
   {
     id: 2,
@@ -20,7 +15,7 @@ export const bdPortfolio = [
     subtitle: "Comida Casera",
     tech: "WordPress",
     web: "https://elmenudealicia.es/",
-    image: alicia,
+    image: img.alicia,
   },
   {
     id: 3,
@@ -28,7 +23,7 @@ export const bdPortfolio = [
     subtitle: "Yoga y Pilates",
     tech: "WordPress",
     web: "https://yogaypilatesoviedo.com/",
-    image: yoga,
+    image: img.yoga,
   },
   {
     id: 4,
@@ -37,7 +32,7 @@ export const bdPortfolio = [
     tech: "React.JS | TailWind | JavaScript",
     web: "https://leandropereyra.github.io/todolist/",
     github: "https://github.com/leandropereyra/todolist",
-    image: lista,
+    image: img.lista,
   },
   {
     id: 5,
@@ -46,7 +41,7 @@ export const bdPortfolio = [
     tech: "React.JS | TailWind | JavaScript",
     web: "https://leandropereyra.github.io/weatherapp/",
     github: "https://github.com/leandropereyra/weatherapp",
-    image: weather,
+    image: img.weather,
   },
   {
     id: 6,
@@ -54,6 +49,6 @@ export const bdPortfolio = [
     subtitle: "Web Personal",
     tech: "React.JS | JavaScript",
     github: "https://github.com/leandropereyradev/personal-web-parallax",
-    image: leandro,
+    image: img.leandro,
   },
 ];

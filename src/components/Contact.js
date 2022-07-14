@@ -1,8 +1,6 @@
 import React from "react";
 import "../css/contact.css";
-import github from "../assets/base/github.svg";
-import linkedin from "../assets/base/linkedin.svg";
-import mail from "../assets/base/mail.svg";
+import img from "./img";
 
 const Contact = () => {
   return (
@@ -19,13 +17,13 @@ const Contact = () => {
           <div className="contact_icons-line" />
           <div className="contact_icons-icons">
             <a href="mailto:contacto@leandropereyra.com" target="_blank" rel="noopener noreferrer">
-              <img src={mail} alt="mail" className="iconContact" />
+              <img src={img.mail} alt="mail" className="iconContact" />
             </a>
             <a href="https://github.com/leandropereyradev" target="_blank" rel="noopener noreferrer">
-              <img src={github} alt="github" className="iconContact" />
+              <img src={img.github} alt="github" className="iconContact" />
             </a>
             <a href="https://www.linkedin.com/in/leandropereyradev" target="_blank" rel="noopener noreferrer">
-              <img src={linkedin} alt="linkedin" className="iconContact" />
+              <img src={img.linkedin} alt="linkedin" className="iconContact" />
             </a>
           </div>
           <div className="contact_icons-line" />

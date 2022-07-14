@@ -2,12 +2,7 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Link } from "react-scroll";
 import "../css/nav.css";
-import menu from "../assets/base/menu.svg";
-import contact from "../assets/base/contact-bubble.svg";
-import home from "../assets/base/home-bubble.svg";
-import portfolio from "../assets/base/portfolio-bubble.svg";
-import about from "../assets/base/about-bubble.svg";
-import bubbles from "../assets/base/bubbles.svg";
+import img from "./img";
 
 const Nav = () => {
   const [open, setOpen] = useState(false);
@@ -19,7 +14,7 @@ const Nav = () => {
   return (
     <div className="nav-container">
       <div className="nav_menu-container">
-        <img src={menu} alt="logo" className="logo" onClick={() => openMenu()} />
+        <img src={img.menu} alt="logo" className="logo" onClick={() => openMenu()} />
         <AnimatePresence>
           {open && (
             <>
@@ -48,7 +43,7 @@ const Nav = () => {
                     x: 0,
                     y: 60,
                   }}
-                  src={home}
+                  src={img.home}
                   alt="home"
                   className="home"
                   onClick={() => openMenu()}
@@ -79,7 +74,7 @@ const Nav = () => {
                     x: 50,
                     y: 60,
                   }}
-                  src={portfolio}
+                  src={img.portfolio}
                   alt="portfolio"
                   className="portfolio"
                   onClick={() => openMenu()}
@@ -110,7 +105,7 @@ const Nav = () => {
                     x: 50,
                     y: 20,
                   }}
-                  src={about}
+                  src={img.about}
                   alt="about"
                   className="about"
                   onClick={() => openMenu()}
@@ -141,7 +136,7 @@ const Nav = () => {
                     x: 0,
                     y: 0,
                   }}
-                  src={contact}
+                  src={img.contact}
                   alt="contact"
                   className="contact"
                   onClick={() => openMenu()}
@@ -170,7 +165,7 @@ const Nav = () => {
                   x: 150,
                   y: 150,
                 }}
-                src={bubbles}
+                src={img.bubbles}
                 alt="bubbles"
                 className="bubbles"
               />

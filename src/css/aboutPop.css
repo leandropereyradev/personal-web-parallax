@@ -79,6 +79,19 @@
     text-indent: 2rem;
 }
 
+.aboutPop_button{
+    font-size: 1.5rem;
+    border-radius: 5px;
+    padding: 7px 7px;
+    color: #fff;
+    background-color: rgb(255, 0, 149);
+    margin-right: 8px;
+    border-style: none;
+    letter-spacing: 4px;
+    font-family: Gothic;
+    cursor: pointer;
+}
+
 .aboutPop_exit {
     position: fixed;
     top: 1rem;
@@ -93,6 +106,25 @@
 
 .aboutPop_exit img:hover {
     transform: scale(120%);
+}
+
+.aboutPop_skills-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin: 3rem 0;
+}
+.skill-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.aboutPop_skills-container img{
+    width: 4rem;
 }
 
 @media screen and (min-width: 700px) {
@@ -126,6 +158,15 @@
     .aboutPop_exit img {
         width: 1.8rem;
     }
+    .skill-container{
+        gap: 5rem;
+    }
+    .aboutPop_skills-container{
+        margin: 6rem 0;
+    }
+    .aboutPop_skills-container img{
+        width: 5rem;
+    }
 }
 @media screen and (min-width: 1000px){
     .aboutPop_about{
@@ -151,10 +192,16 @@
     .aboutPop_about {
         padding: 4rem 12rem;
     }
+    .skill-container{
+        gap: 7rem;
+    }
 }
 
 @media screen and (min-width: 1600px){
     .aboutPop-papa{
         padding: 0 10rem;
+    }
+    .skill-container{
+        gap: 8rem;
     }
 }

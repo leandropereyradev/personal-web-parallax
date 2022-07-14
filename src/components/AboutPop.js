@@ -1,8 +1,7 @@
 import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import "../css/aboutPop.css";
-import exit from "../assets/base/exit.svg";
-import papa from "../assets/base/pap.svg";
+import img from "./img";
 import { Link } from "react-scroll";
 
 const AboutPop = ({ estado, set }) => {
@@ -59,7 +58,7 @@ const AboutPop = ({ estado, set }) => {
                       amo!"
                     </p>
 
-                    <img src={papa} alt="papa" />
+                    <img src={img.papa} alt="papa" />
                   </div>
                   <p className="aboutPop_info_title_text">
                     Gracias a ese valor que me regaló mi padre en aquel momento, entre muchos otros, soy una persona que le gusta tomar
@@ -69,10 +68,10 @@ const AboutPop = ({ estado, set }) => {
                   </p>
                   <p className="aboutPop_info_title_text">
                     Os invito a que seáis parte del aire que surco, que seáis mi experiencia. Que, en momentos de fuertes ráfagas, saber que
-                    estáis allí para aprender a mantenerme en vuelo mientras se soluciona. ¡Que hermoso es volar a diferentes alturas,
-                    temperaturas!. Porque no todo es una suave brisa, y es lo que más me gusta, sino me aburro. Quiero ser un experto
-                    surcando los aires del Desarrollo Web. Volar con otros para adquirir valores, métodos, prácticas y hacer de todo ello mi
-                    experiencia.
+                    estáis allí para yo poder aprender a mantenerme en vuelo mientras lo solucionamos. ¡Que hermoso es volar a diferentes
+                    alturas, temperaturas!. Porque no todo es una suave brisa, y es lo que más me gusta, sino me aburro. Quiero ser un
+                    experto surcando los aires del Desarrollo Web. Volar con otros para adquirir valores, métodos, prácticas y hacer de todo
+                    ello mi experiencia, sentirme, cada vez más, orgulloso de mi mismo.
                   </p>
                   <p className="aboutPop_info_title_text">
                     Pues, lo dicho; Soy un Desarrollador Web Front-End con experiencia en creación de sitios y aplicaciones web. Autodidacta
@@ -82,14 +81,26 @@ const AboutPop = ({ estado, set }) => {
                     Conozcámonos para darnos la oportunidad. ¿Y si terminamos siendo un equipazo? ¿Saltamos?
                   </p>
                 </div>
+                <div className="aboutPop_skills-container">
+                  <h3>Skills Trainee</h3>
+                  <div className="skill-container">
+                    <img src={img.react} alt="react" />
+                    <img src={img.html} alt="html" />
+                    <img src={img.css} alt="css" />
+                  </div>
+                  <div className="skill-container">
+                    <img src={img.js} alt="js" />
+                    <img src={img.wp} alt="wp" />
+                    <img src={img.git} alt="git" />
+                  </div>
+                </div>
                 <Link to="contact" smooth={true} offset={0} duration={500}>
-                  <button onClick={set} className="about_button">
+                  <button onClick={set} className="aboutPop_button">
                     Conozcámonos
                   </button>
                 </Link>
-                <div className="aboutPop_skills-container"></div>
                 <div className="aboutPop_exit">
-                  <img src={exit} alt="exit" onClick={set} />
+                  <img src={img.exit} alt="exit" onClick={set} />
                 </div>
               </div>
             </motion.div>
