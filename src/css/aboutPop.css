@@ -79,7 +79,7 @@
     text-indent: 2rem;
 }
 
-.aboutPop_button{
+.aboutPop_button {
     font-size: 1.5rem;
     border-radius: 5px;
     padding: 7px 7px;
@@ -108,14 +108,15 @@
     transform: scale(120%);
 }
 
-.aboutPop_skills-container{
+.aboutPop_skills-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 2rem;
     margin: 3rem 0;
 }
-.skill-container{
+
+.skill-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -123,7 +124,7 @@
     gap: 3rem;
 }
 
-.aboutPop_skills-container img{
+.aboutPop_skills-container img {
     width: 4rem;
 }
 
@@ -158,50 +159,58 @@
     .aboutPop_exit img {
         width: 1.8rem;
     }
-    .skill-container{
+
+    .skill-container {
         gap: 5rem;
     }
-    .aboutPop_skills-container{
+
+    .aboutPop_skills-container {
         margin: 6rem 0;
     }
-    .aboutPop_skills-container img{
+
+    .aboutPop_skills-container img {
         width: 5rem;
     }
 }
-@media screen and (min-width: 1000px){
-    .aboutPop_about{
+
+@media screen and (min-width: 1000px) {
+    .aboutPop_about {
         padding: 3rem 2rem;
     }
-    .aboutPop-papa{
+
+    .aboutPop-papa {
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
     }
-    .aboutPop-papa img{
+
+    .aboutPop-papa img {
         max-width: 400px;
         margin: 0 0 2rem 4rem;
     }
-    .version{
+
+    .version {
         font-size: 1.5rem;
     }
 }
 
 @media screen and (min-width: 1200px) {
-
     .aboutPop_about {
         padding: 4rem 12rem;
     }
-    .skill-container{
+
+    .skill-container {
         gap: 7rem;
     }
 }
 
-@media screen and (min-width: 1600px){
-    .aboutPop-papa{
+@media screen and (min-width: 1600px) {
+    .aboutPop-papa {
         padding: 0 10rem;
     }
-    .skill-container{
+
+    .skill-container {
         gap: 8rem;
     }
 }

@@ -17,45 +17,32 @@
     cursor: pointer;
 }
 
+.contact,
+.about,
+.portfolio,
 .home {
     width: 80px;
+    cursor: pointer;
+    z-index: 99;
     position: absolute;
+}
+
+.home {
     bottom: 3.5rem;
     right: 0.5rem;
-    z-index: 99;
-    cursor: pointer;
 }
 
 .portfolio {
-    width: 70px;
-    position: absolute;
     bottom: 3rem;
     right: 3rem;
-    cursor: pointer;
-    z-index: 99;
 }
 
 .about {
-    width: 90px;
-    position: absolute;
     bottom: 1rem;
     right: 3rem;
-    cursor: pointer;
-    z-index: 99;
 }
 
 .contact {
-    width: 60px;
-    position: absolute;
     bottom: 1rem;
     right: 1.5rem;
-    cursor: pointer;
-    z-index: 99;
-}
-
-.bubbles {
-    width: 300px;
-    position: absolute;
-    bottom: 1rem;
-    right: 2rem;
 }

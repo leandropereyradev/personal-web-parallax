@@ -1,13 +1,12 @@
 .portfolio_image-container img {
-    width: 70%;
-    max-width: 450px;
+    max-width: 250px;
     border-radius: 1%;
 }
 
 .portfolio_image-container {
     display: flex;
     justify-content: center;
-    align-items: start;
+    align-items: flex-start;
     height: 87vh;
 }
 
@@ -25,7 +24,7 @@
 
 .titulo {
     position: absolute;
-    bottom: 3rem;
+    bottom: 1rem;
     color: aliceblue;
     font-family: Gothic;
     margin-left: 2rem;
@@ -119,7 +118,7 @@
     }
 
     .titulo {
-        bottom: 4rem;
+        bottom: 1rem;
         margin-left: 3rem;
     }
 
@@ -182,7 +181,7 @@
 
 @media screen and (min-width: 1200px) {
     .portfolio_image-container img {
-        max-width: 400px;
+        max-width: 350px;
     }
 
     .portfolio_image-container {
@@ -199,7 +198,7 @@
 
 @media screen and (min-width: 1900px) {
     .portfolio_image-container img {
-        max-width: 500px;
+        max-width: 450px;
     }
 
     .portfolio_image-container {
@@ -214,15 +213,15 @@
     }
 
     .titulo h3 {
-        font-size: 4.5rem;
+        font-size: 4rem;
     }
 
     .titulo h5 {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .titulo h6 {
-        font-size: 2rem;
+        font-size: 1.5rem;
         margin-bottom: 3rem;
     }
 }

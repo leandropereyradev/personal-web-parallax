@@ -142,33 +142,6 @@ const Nav = () => {
                   onClick={() => openMenu()}
                 />
               </Link>
-              <motion.img
-                initial={{
-                  scale: 0,
-                  opacity: 0,
-                  x: 150,
-                  y: 150,
-                }}
-                animate={{
-                  scale: 1,
-                  opacity: 1,
-                  y: -10,
-                  x: 0,
-                }}
-                transition={{
-                  duration: 0.5,
-                  ease: "easeOut",
-                }}
-                exit={{
-                  scale: 0,
-                  opacity: 0,
-                  x: 150,
-                  y: 150,
-                }}
-                src={img.bubbles}
-                alt="bubbles"
-                className="bubbles"
-              />
             </>
           )}
         </AnimatePresence>

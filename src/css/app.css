@@ -13,6 +13,7 @@
     height: 2300px;
   }
 }
+
 @media screen and (min-width: 1000px) {
   .Parallax__background {
     height: 1900px;

@@ -25,7 +25,6 @@ import contact from "../assets/base/nav/contact-bubble.svg";
 import home from "../assets/base/nav/home-bubble.svg";
 import portfolio from "../assets/base/nav/portfolio-bubble.svg";
 import about from "../assets/base/nav/about-bubble.svg";
-import bubbles from "../assets/base/nav/bubbles.svg";
 
 //Portfolio DDBB
 import celia from "../assets/web/celiamartinperez-min.webp";
@@ -69,7 +68,6 @@ export default {
   home,
   portfolio,
   about,
-  bubbles,
 
   //Portfolio DDBB
   celia,
